@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: #243e63;
 }
 
 html {
@@ -15,6 +13,7 @@ html {
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: #243e63;
 }
 
 main {
@@ -100,8 +99,8 @@ button {
 .section__para {
   font-size: 18px;
   font-weight: 500;
-  text-align: center;
-  max-width: 576px;
+  line-height: 1.625;
+  color: #7c8ba1;
 }
 
 i {
@@ -278,6 +277,17 @@ HEADER
   border-color: rgb(160, 174, 192);
 }
 
+.header__email--input::placeholder {
+  font-weight: 500;
+  color: rgb(158, 170, 189);
+}
+
+.header__email--input:focus,
+.header__email--input:active {
+  outline: none;
+  border-color: rgb(100, 21, 255);
+}
+
 .header__email--btn {
   width: 160px;
   height: calc(100% - 16px);
@@ -296,6 +306,14 @@ HEADER
   background-color: rgb(60, 13, 153);
 }
 
+
+.header__customers--title {
+  margin-top: 80px;
+  color: #a0aec0;
+  font-size: 12px;
+  letter-spacing: 0.6;
+}
+
 .header__customers--wrapper {
   margin-top: 16px;
   padding-right: 128px;
@@ -312,8 +330,6 @@ HEADER
 
 .header__img--wrapper {
   width: calc(100%-40%);
-  display: flex;
-  justify-content: flex-end;
 }
 
 .header__img {
@@ -328,9 +344,7 @@ FEATURES
 */
 
 #features {
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
+  position: relative;
 }
 
 .features__row {
@@ -350,6 +364,11 @@ FEATURES
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+}
+
+.features__para {
+  text-align: center;
+  max-width: 576px;
 }
 
 .feature {
@@ -414,14 +433,8 @@ QUALITY
   line-height: 1.25;
 }
 
-.section__para {
-  font-weight: 500;
-  color: #7c8ba1;
-  line-height: 1.625;
-}
-
 .quality__btn {
-  margin-top: 24px;
+  margin-top: 32px;
 }
 
 .quality__img--wrapper {
@@ -507,7 +520,7 @@ STEPS
   line-height: 1;
 }
 
-.step__description {
+.step__descripton {
   display: flex;
   flex-direction: column;
   margin-left: 24px;
@@ -627,6 +640,11 @@ PRICING
 
 .pricing__title {
   text-align: center;
+}
+
+.pricing__para {
+  text-align: center;
+  max-width: 576px;
 }
 
 .plans {
@@ -863,16 +881,22 @@ TESTIMONIALS
 }
 
 .testimonial__rating {
+  color: rgb(246, 173, 85);
   margin-right: 2px;
   margin-top: 4px;
 }
 
-.fa-star path {
-  fill: rgb(246, 173, 85);
+
+.fa-solid,
+.fa-star {
+  font-weight: 900;
 }
 
-.fa-solid {
-  font-weight: 900;
+
+.fa-star {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .testimonial__title {
@@ -889,7 +913,7 @@ TESTIMONIALS
   font-weight: 500;
   line-height: 1.625;
   font-size: 16px;
-  color: rgb(74, 85, 104);
+  color: rgb(74 85 104);
 }
 
 .testimonial__bottom {
