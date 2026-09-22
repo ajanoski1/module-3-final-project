@@ -22,15 +22,11 @@
             <a href="" class="nav__link">Blog</a>
             <a href="" class="nav__link">Pricing</a>
             <a href="" class="nav__link">Contact Us</a>
-            <a href="" class="nav__link login">Login</a>
-            <a href="" class="nav__link sign-up">Sign Up</a>
+            <a href="" class="nav__link nav__link--login">Login</a>
+            <a href="" class="nav__link nav__link--sign-up">Sign Up</a>
           </div>
         </div>
-        <!-- <div class="btn__menu">
-          <button> 
-             <i class="fa-solid fa-bars"></i>
-          </button>
-        </div> -->
+        
       </div>
     </nav>
     <header>
@@ -392,15 +388,13 @@
                 </div>
                 <div class="plan__middle">
                   <div class="plan__target">For Individuals</div>
-                  <div class="plan__feature">30 Templates</div>
-                  <div class="plan__feature">7 Landing Pages</div>
-                  <div class="plan__feature">12 Internal Pages</div>
-                  <div class="plan__feature">Basic Assistance</div>
+                  <p class="plan__feature">30 Templates</p>
+                  <p class="plan__feature">7 Landing Pages</p>
+                  <p class="plan__feature">12 Internal Pages</p>
+                  <p class="plan__feature">Basic Assistance</p>
                 </div>
                 <div class="plan__bottom">
-                  <button class="plan__btn">
-                    BUY NOW
-                  </button>
+                  <button class="btn plan__btn">BUY NOW</button>
                 </div>
               </div>
               <div class="plan">
@@ -412,15 +406,13 @@
                 </div>
                 <div class="plan__middle">
                   <div class="plan__target">For Small Businesses</div>
-                  <div class="plan__feature">60 Templates</div>
-                  <div class="plan__feature">15 Landing Pages</div>
-                  <div class="plan__feature">22 Internal Pages</div>
-                  <div class="plan__feature">Priority Assistance</div>
+                  <p class="plan__feature">60 Templates</p>
+                  <p class="plan__feature">15 Landing Pages</p>
+                  <p class="plan__feature">22 Internal Pages</p>
+                  <p class="plan__feature">Priority Assistance</p>
                 </div>
                 <div class="plan__bottom">
-                  <button class="plan__btn">
-                    BUY NOW
-                  </button>
+                  <button class="btn plan__btn">BUY NOW</button>
                 </div>
               </div>
               <div class="plan">
@@ -432,19 +424,16 @@
                 </div>
                 <div class="plan__middle">
                   <div class="plan__target">For Large Companies</div>
-                  <div class="plan__feature">90 Templates</div>
-                  <div class="plan__feature">27 Landing Pages</div>
-                  <div class="plan__feature">37 Internal Pages</div>
-                  <div class="plan__feature">Personal Assistance</div>
+                  <p class="plan__feature">90 Templates</p>
+                  <p class="plan__feature">27 Landing Pages</p>
+                  <p class="plan__feature">37 Internal Pages</p>
+                  <p class="plan__feature">Personal Assistance</p>
                 </div>
                 <div class="plan__bottom">
-                  <button class="plan__btn">
-                    BUY NOW
-                  </button>
+                  <button class="btn plan__btn">BUY NOW</button>
                 </div>
               </div>
-              </div>
-             <svg
+              <svg
                 width="600"
                 height="600"
                 viewBox="0 0 600 600"
@@ -463,12 +452,12 @@
       </div>
     </section>
     <section id="testimonials">
-      <div class="container">
+      <div class="testimonials__container container">
         <div class="row testimonials__row">
           <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="" class="testimonials__img">
           <div class="testimonials__description">
             <div class="section__tag">TESTIMONIALS</div>
-            <h2 class="section__title">
+            <h2 class="testimonials__title section__title">
               Our Clients <span class="purple">Love Us.</span>
             </h2>
             <p class="section__para">
@@ -476,12 +465,12 @@
             </p>
             <div class="testimonial">
               <div class="testimonial__rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
               <h3 class="testimonial__title">
                 Amazing User Experience
               </h3>
@@ -508,8 +497,7 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        viewBox="0 0 24 24"
-                      >
+                        viewBox="0 0 24 24">
                         <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                       </svg>
                   </button>
@@ -521,8 +509,7 @@
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        viewBox="0 0 24 24"
-                      >
+                        viewBox="0 0 24 24">
                         <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                       </svg>
                   </button>
@@ -558,18 +545,116 @@
                   Developers all over the world are happily using Treact.
                 </div>
                 <div class="start__btns">
-                  <button class="btn start__button">Get Started</button>
-                  <button class="btn start__button">Contact Us</button>
+                  <button class="start__btn btn">Get Started</button>
+                  <button class="start__btn btn">Contact Us</button>
                 </div>
               </div>
             </div>
         </div>
       </div>
     </section>
-  </main>
-
+  </main> 
   <footer>
-
+    <svg viewBox="0 0 600 600" class="footer__blob--1">
+        <g transform="translate(300,300)">
+          <path
+            d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z"
+            fill="rgba(80,17,204)"
+          ></path>
+        </g>
+      </svg>
+      <svg viewBox="0 0 600 600" class="footer__blob--2">
+        <g transform="translate(300,300)">
+          <path
+            d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z"
+            fill="rgba(80,17,204)"
+          ></path>
+        </g>
+      </svg>
+    <div class="row footer__row">
+      <div class="footer__columns">
+        <div class="footer__column">
+          <div class="footer__column--title">
+            MAIN
+          </div>
+          <a href="" class="footer__column--link">Blog</a>
+          <a href="" class="footer__column--link">FAQs</a>
+          <a href="" class="footer__column--link">Support</a>
+          <a href="" class="footer__column--link">About Us</a>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            PRODUCT
+          </div>
+          <a href="" class="footer__column--link">Log In</a>
+          <a href="" class="footer__column--link">Personal</a>
+          <a href="" class="footer__column--link">Business</a>
+          <a href="" class="footer__column--link">Team</a>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            PRESS
+          </div>
+          <a href="" class="footer__column--link">Logos</a>
+          <a href="" class="footer__column--link">Events</a>
+          <a href="" class="footer__column--link">Stories</a>
+          <a href="" class="footer__column--link">Office</a>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            TEAM
+          </div>
+          <a href="" class="footer__column--link">Career</a>
+          <a href="" class="footer__column--link">Founders</a>
+          <a href="" class="footer__column--link">Culture</a>
+          <a href="" class="footer__column--link">Onboarding</a>
+        </div>
+        <div class="footer__column">
+          <div class="footer__column--title">
+            LEGAL
+          </div>
+          <a href="" class="footer__column--link">GDPR</a>
+          <a href="" class="footer__column--link">Privacy Policy</a>
+          <a href="" class="footer__column--link">Terms of Service</a>
+          <a href="" class="footer__column--link">Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__bottom">
+        <div class="footer__logo">
+          <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="" class="footer__logo--img">
+          <h5 class="footer__logo--text">
+            Treact Inc.
+          </h5>
+        </div>
+        <div class="footer__copyright">
+          &copy; 2018 Treact Inc. All Rights Reserved.
+        </div>
+        <div class="footer__socials">
+          <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"
+                ></path>
+              </svg>
+            </a>
+            <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"
+                ></path>
+              </svg>
+            </a>
+            <a class="footer__social--link">
+              <svg fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"
+                ></path>
+              </svg>
+            </a>
+        </div>
+      </div>
+    </div>
   </footer>
 
   
